@@ -118,7 +118,7 @@ contract BankAccount {
         ) ;
         require(
             accounts[accountId].withdrawRequests[withdrawId].approved,
-            "thie request is not approved"
+            "this request is not approved"
         ) ;
         _ ;
     }
